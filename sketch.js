@@ -41,6 +41,10 @@ world=engine.world;
 
 function draw() {
   
+  if(keyDown("down")){
+    star.velocityY = 4
+  }
+  
   if(keyDown("right")){
     fairy.x = fairy.x + 3
   }
